@@ -91,6 +91,7 @@ nav a:hover {
     padding: 100px 0;
     background-color: #ede4d6;
     text-align: center;
+    border-bottom: #47341c solid 1px;
 }
 
 .menu-item {
