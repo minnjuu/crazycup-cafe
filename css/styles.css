@@ -1,5 +1,11 @@
 /* Reset some default styles */
-body, h1, h2, h3, p, ul, li {
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
     margin: 0;
     padding: 0;
 }
@@ -20,7 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .logo img {
@@ -81,7 +87,24 @@ nav a:hover {
 
 .menu {
     padding: 100px 0;
+    background-color: #ede4d6;
     text-align: center;
+}
+
+.menu-item {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+
+.menu-item ul {
+    list-style-type: none;
+
+}
+
+.menu-item ul li {
+    margin-bottom: 5px;
 }
 
 .menu h2 {
