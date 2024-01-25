@@ -22,6 +22,12 @@ header {
     padding: 20px;
 }
 
+.nav-foot ul {
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
